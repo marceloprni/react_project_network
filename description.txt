@@ -1,0 +1,3 @@
+pnpm create vite
+
+npm i phosphor-react
