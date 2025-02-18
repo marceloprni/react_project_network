@@ -3,5 +3,62 @@ pnpm create vite
 npm i phosphor-react
 
 
+### EXERC
 
-https://github.com/rocketseat-education/ignite-reactjs-01-fundamentos-react/commit/f5b8eac
+Assinale alternativa incorreta sobre react:
+a - react é uma biblioteca javasript para criar interfaces de usuario
+b - o rect pode ser utilizada apenas interfaces web, ou seja, não é possivel utiliza-lo em outros ambientes como mobile por exemplo - CERTA
+c - nextjs e remix são exemplos de frameworks que utilizam rect
+d - react é uma das biblioteca mais utilizadas no mercado de trabalho atualmente
+
+Sobre a estrutura do projeto react gerado pelo Vite, assinale a alterantiva incorreta:
+a - o arquivo indx.html é gerado na raiz do projeto e ele é o primeiro arquivo carregado pela nossa aplicação web
+b - o vite utiliza a linha < script type="module" src="/src/main.jsx"></script> para importar o nosso primeiro arquivo javascript (main.jsx)
+utilizando o ECMAscript modules, ou seja, sem precisar utilizar um bundler como webpack
+c - o react em conjunto com o react dom renderiza dentro da div id=root o conteudo gerado pelo javascript. ou seja, o js tem total controle
+da interface que é apresentada na tela
+d - por trabalhar com ssr, ao desabilitar o javascript no exemplo apresentado em aula a aplicação continua funcionando sem apresentar
+nenhum problema. - CERTA
+
+Sobre componentes e propriedades no react, é incorreta dizer que:
+a - normalmente utilizamos componentes para reaproveitar trechos de codigo em diferentes locais da aplicação, por exemplo a estrturua de um 
+avatar no instagram(repetido nos stories, feed, comentarios)
+b - as propriedades são uma forma de customizar o conteudo de cada componente, por exemplo informar o nome a avatar do autor em um componente
+post.
+c - para renderizar os componentes na nossa aplicação, basta seguir a mesma estrutura do html, sempre escrevendo o nome do componente em minusculo
+por exemplo: <post/> - CERTA
+d - para repassar as propriedades para um componente, basta escreve como se fossem atributos do html, por exemplo <Post author="Diego Fernandes" />
+
+Qual a forma recomendada de se utilizar classes css dentro do React?
+a - atraves do atributo class
+b - através do atributo classHtml
+c - através do atributo className - certo
+
+Qual das opções é a forma correta de nomeação de um componentes ?
+a - header ( com a primeira letra maiuscula) - certa
+b - header ( com todas as letras minusculas)
+c - HEADER (com todas as letras maiusculas)
+
+Das seguintes alternativas, assinale a alternativa que não representa uma caraceristica do hook useState do react:
+a - ele tem como retorno um array de duas posições, a primeira representa o valor atual do estado  a segunda representa uma função utilizada para 
+alterar o valor do estado 
+b - ele automaticamente compartilha o estado entre todos os componentes da nossa aplicação - certa
+c - a função para alterar o valor do estado pode receber um callback que tem como seu parâmetro o valor mais atualizado da fila de 
+atualizaçõesdo react.
+
+Sobre a propriedade key no React, qual das seguintes alternativas contem uma informação incorreta sobre seu funcionamento?
+a - ao passar uma key para um elemento, ele deve possuir um valor unico que não tenha sido utilizado em outro elemento da mesma iteração
+b - nos devemos sempre passar um valor aleatório ou utilizar o index da iteração com a key do elemento - CERTA 
+c - a key e uma propriedade que ajuda o react a entender o que foi alterado numa iteração, e deve ser utilizado sempre que temos uma iteração em nosso codigo.
+
+qual a forma correta de se adicionar um valor que existe na variavel novoItem ao final de um array em um estado chamado items no React?
+a - items.push(novoItem)
+b - setItems(novoItem)
+c - setItems(state => [...state, novoItem]) - certa 
+
+O que é typescript ?
+a - é uma linguagem de programação com tipagem dinamica
+b - e uma linguagem de programação construida em cima do javascript que traz tipagem e novas funcionalidades 
+c - e um superset que introduz tipos na linguagem java 
+
+

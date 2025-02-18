@@ -1,0 +1,10 @@
+npm i eslint -D
+npm i @rocketseat/eslint-config -D 
+
+ou npx eslint --init - cria sua proprio modo de trabalho
+
+npx eslint src --ext .ts,.tsx --fix
+
+npm i react-hook-form
+npm i zod
+npm i @hookform/resolvers
